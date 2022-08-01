@@ -1,0 +1,145 @@
+body{
+    /* background-color: rgb(23, 7, 92); */
+    color: white;
+    font-family: Helvetica;
+    background-image: url(box-squares.gif);
+}
+
+/* Nav Bar */
+h1{
+    color: yellow;
+    display: flex;
+    justify-content: center;
+}
+
+#big_div{
+    font-size: larger;
+    display: flex;
+    justify-content: space-around;
+}
+
+.items{
+    display: flex;
+    justify-content: center;
+    font-family: Helvetica; 
+    color: red;	
+    background-color: white;
+    font-size: 20px; 	
+    padding: 10px;
+    width: 95px;
+    height: 20px;
+    border: 5px solid rgb(0, 0, 0);
+    border-radius: 25%;
+}
+
+.items:hover{
+    background-color: rgba(220,220,220, 50%);
+    opacity: 0.5;
+}
+
+.image1{
+    width: 60px;
+    height: 60px;
+}
+
+#header{
+    background-color: rgba(187, 194, 204, 10%);;  	
+    color: white;;  	
+}
+/* END OF NAV BAR */
+
+/* Outline for About Me */
+#About_Me{
+    background-color: rgba(23, 7, 92, 50%);
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+}
+#About_Me:hover{
+    background-color: rgb(23, 7, 92);
+    border-top: 1px solid #B1D7FE;
+    border-bottom: 1px solid #B1D7FE;
+    border-left: 1px solid #B1D7FE;
+    border-right: 1px solid #B1D7FE;
+}
+
+.paragraphs{
+    display: flex;
+    text-align: center;
+    margin: 20px;
+}
+
+#Passions:hover{
+    background-color: rgb(93, 13, 7);
+    border-top: 1px solid #B1D7FE;
+    border-bottom: 1px solid #B1D7FE;
+    border-left: 1px solid #B1D7FE;
+    border-right: 1px solid #B1D7FE;
+}
+
+#Passions{
+    background-color: rgba(92, 13, 7, 0.5);
+}
+
+#Experience{
+    background-color: rgba(7, 92, 23, 0.5);
+}
+
+#Goals{
+    background-color: rgba(98, 98, 98, 0.666)
+}
+
+
+
+#Experience:hover{
+    background-color: rgb(7, 92, 23);
+    border-top: 1px solid #B1D7FE;
+    border-bottom: 1px solid #B1D7FE;
+    border-left: 1px solid #B1D7FE;
+    border-right: 1px solid #B1D7FE;
+}
+
+#Goals:hover{
+    background-color: rgb(98, 98, 98);
+    border-top: 1px solid #B1D7FE;
+    border-bottom: 1px solid #B1D7FE;
+    border-left: 1px solid #B1D7FE;
+    border-right: 1px solid #B1D7FE;
+}
+/* Outline for About Me */
+
+/* Beginning of Quote Section*/
+.quote-content {
+    display: flex;
+    padding-left: 10px;
+    width: 90%;
+    margin: 15px;
+    padding: 25px;
+    transition: border 500ms;
+}
+
+.quoteandexpl{
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+}
+/* End of Quote Section*/
+
+.section_name{
+    font-size: larger;
+}
+
+.passions {
+    display: flex;
+    justify-content: center;
+}
+
+.experience{
+    display: flex;
+    justify-content: center;
+}
+
+.goals{
+    display: flex;
+    justify-content: center;
+}

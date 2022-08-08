@@ -4,6 +4,8 @@
    <meta charset="UTF-8">
    <title>Coding Website</title>
    <link rel="stylesheet" href="style.css">
+   <script defer src="data.js"></script>
+   <script defer src="script.js"></script>
 </head>
 <body>
     <div id="header">
@@ -17,7 +19,9 @@
             <a href="#Passions" ><div class="items">Passions</div></a>	
             <a href="#Experience" ><div class="items">Experience</div></a>
             <a href="#Goals" ><div class="items">Goals</div></a>
+            <button id="galleryBtn">Secret Gallery</button>
         </div>
+
     </div>
 
     <br>
@@ -25,6 +29,7 @@
     <br>
 
     <div id="About_Me">
+     <article id="movesection">
         <h2>About Me</h2>
         <div class="Quote">
             <p class="section_name">Quote:</p>
@@ -48,9 +53,11 @@
                 <li><a href="https://www.linkedin.com/in/christian-de-la-torre-62ab93246" target="_blank">LinkedIn</a></li>
             </ul>
         </div>
+     </article>
     </div >
 
     <div id="Passions">
+    <article id="movesection1">
         <h2 class="passions">Passions</h2>
         <ul>
             <li>3D Printing</li>
@@ -66,9 +73,11 @@
             <p class="paragraphs">The superhero genre is my favorite genre. I grew up watching all the animated cartoons, such Superman: The Animated Series and Justice League: Unlimited. As with Star Wars, I grew up reading the comics on the different heroes and playing the games. My favorite movies are from the MCU and I love watching the new content to keep me entertained.
             </p>
         </ul>
+    </article>
     </div>
 
     <div id="Experience">
+    <article id="movesection2">
         <h2 class="experience">Experience</h2>
         <h3>Employment</h3>
             <li>STEM SUCCESS</li>
@@ -103,16 +112,37 @@
                 I was chosen to be the leader of a team when we played the Stock Market Game. 
                 I was responsible for making sure that my team members would do the work they were required to and coordinating the team into making decisions with our stock portfolio.
             </p>
+    </article>
     </div>
 
 
     <div id="Goals">
+    <article id="movesection3">
+
         <h2 class="goals">Goals</h2>
         <ol>
             <li>One day I hope to have the role of a manager of my own department in a computer science job.</li>
             <li>I want to create a safe environment for my food pantry and would like to be put  completely in charge of it.</li>
         </ol>
+    </article>
     </div>
+
+    <div id="galleryContainer">
+        <h2 class="gallery">Gallery</h2>
+        <div class="gallery-content">
+            <img class="image" src="" width="200px">
+            <br>
+           <div class="gallerytext">
+                <p class="datetaken"></p>
+                <br>
+                <p class="description"></p>
+            </div>
+        </div>
+    </div>
+    <button id="cycleBtn">Cycle</button>
+
+
+
 
 </body>
 </html>

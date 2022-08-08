@@ -46,22 +46,19 @@ h1{
     background-color: rgba(187, 194, 204, 10%);;  	
     color: white;;  	
 }
+
+#galleryBtn{
+    padding: 3px;
+    border-radius: 11%;
+    border: 3px solid #0037ff;
+    background-color: aqua;
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+    font-size: 18px;
+}
 /* END OF NAV BAR */
 
 /* Outline for About Me */
-#About_Me{
-    background-color: rgba(23, 7, 92, 50%);
-    text-align: center;
-    display:flex;
-    flex-direction: column;
-}
-#About_Me:hover{
-    background-color: rgb(23, 7, 92);
-    border-top: 1px solid #B1D7FE;
-    border-bottom: 1px solid #B1D7FE;
-    border-left: 1px solid #B1D7FE;
-    border-right: 1px solid #B1D7FE;
-}
 
 .paragraphs{
     display: flex;
@@ -69,14 +66,14 @@ h1{
     margin: 20px;
 }
 
-#Passions:hover{
-    background-color: rgb(93, 13, 7);
-    border-top: 1px solid #B1D7FE;
-    border-bottom: 1px solid #B1D7FE;
-    border-left: 1px solid #B1D7FE;
-    border-right: 1px solid #B1D7FE;
+.className{
+    display: flex;
+    justify-content: center;
 }
 
+
+
+/* craete the background color for the section */
 #Passions{
     background-color: rgba(92, 13, 7, 0.5);
 }
@@ -89,24 +86,20 @@ h1{
     background-color: rgba(98, 98, 98, 0.666)
 }
 
-
-
-#Experience:hover{
-    background-color: rgb(7, 92, 23);
-    border-top: 1px solid #B1D7FE;
-    border-bottom: 1px solid #B1D7FE;
-    border-left: 1px solid #B1D7FE;
-    border-right: 1px solid #B1D7FE;
+#About_Me{
+    background-color: rgba(23, 7, 92, 50%);
 }
 
-#Goals:hover{
-    background-color: rgb(98, 98, 98);
-    border-top: 1px solid #B1D7FE;
-    border-bottom: 1px solid #B1D7FE;
-    border-left: 1px solid #B1D7FE;
-    border-right: 1px solid #B1D7FE;
+#galleryContainer{
+    background-color: rgba(207, 228, 131, 0.5);
 }
 /* Outline for About Me */
+
+/* for the about me section sub headings for about me */
+.section_name{
+    font-size: larger;
+}
+
 
 /* Beginning of Quote Section*/
 .quote-content {
@@ -125,8 +118,12 @@ h1{
 }
 /* End of Quote Section*/
 
-.section_name{
-    font-size: larger;
+
+/* centers the main titles */
+#About_Me{
+    text-align: center;
+    display:flex;
+    flex-direction: column;
 }
 
 .passions {
@@ -142,4 +139,74 @@ h1{
 .goals{
     display: flex;
     justify-content: center;
+}
+
+.gallery{
+    display: flex;
+    justify-content: center;
+}
+
+
+/* creates the hover effect */
+#Goals:hover{
+    background-color: rgb(98, 98, 98);
+    border-top: 1px solid #B1D7FE;
+    border-bottom: 1px solid #B1D7FE;
+    border-left: 1px solid #B1D7FE;
+    border-right: 1px solid #B1D7FE;
+}
+
+#Experience:hover{
+    background-color: rgb(7, 92, 23);
+    border-top: 1px solid #B1D7FE;
+    border-bottom: 1px solid #B1D7FE;
+    border-left: 1px solid #B1D7FE;
+    border-right: 1px solid #B1D7FE;
+}
+
+#Passions:hover{
+    background-color: rgb(93, 13, 7);
+    border-top: 1px solid #B1D7FE;
+    border-bottom: 1px solid #B1D7FE;
+    border-left: 1px solid #B1D7FE;
+    border-right: 1px solid #B1D7FE;
+}
+
+#About_Me:hover{
+    background-color: rgb(23, 7, 92);
+    border-top: 1px solid #B1D7FE;
+    border-bottom: 1px solid #B1D7FE;
+    border-left: 1px solid #B1D7FE;
+    border-right: 1px solid #B1D7FE;
+}
+
+
+/* gallery section */
+.gallery-content{
+    display: flex;
+    justify-content: center;
+}
+
+.gallerytext{
+    display: flex;
+    flex-direction: column;
+}
+#cycleBtn{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+@media(max-width: 400px){
+    p{
+        font-size:11px;
+    }
+    img{
+        width:20%;
+    }
+    .section_name{
+        font-size:100%;
+    }
 }
